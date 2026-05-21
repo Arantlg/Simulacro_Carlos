@@ -31,7 +31,7 @@ public class simulacro {
         int calor=diaCaluroso(temperaturas);
         System.out.println("En la semana hubieron "+ calor+" dias calurosos");
         int frio=diasFrios(temperaturas);
-        System.out.println("En la semana hubieron "+ frio+" dias calurosos");
+        System.out.println("En la semana hubieron "+ frio+" dias frios");
 
         sc.close();
 
