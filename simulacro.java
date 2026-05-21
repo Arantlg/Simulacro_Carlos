@@ -14,6 +14,7 @@ public class simulacro {
             temperaturas[i]=sc.nextDouble();
         }
 
+        System.out.println("----------La temperaturas---------");
         MostrarTemperaturas(temperaturas);
 
         System.out.println("----------Promedio---------");
@@ -39,7 +40,6 @@ public class simulacro {
 
     // Punto 1- Mostrar todas las temperaturas registradas
     public static void MostrarTemperaturas(double[] temperaturas){
-        System.out.println("----------La temperaturas---------");
         for(int i=0;i<temperaturas.length;i++){
         System.out.println("Dia "+(i+1)+": La temperatura fue de "+temperaturas[i]+"°C");
         }
