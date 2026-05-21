@@ -57,7 +57,7 @@ public class simulacro {
 
     // Punto 3- Mostrar la temperatura más alta
     public static double tempMayor(double[] temperaturas){
-        double mayor=0;
+        double mayor=temperaturas[0];
         for (int i = 0; i < temperaturas.length; i++) {
             if(temperaturas[i]>mayor){
                 mayor=temperaturas[i];
@@ -68,7 +68,7 @@ public class simulacro {
 
     // Punto 4- Mostrar la temperatura más baja
     public static double tempMenor(double[] temperaturas){
-        double menor=50;
+        double menor=temperaturas[0];
         for (int i = 0; i < temperaturas.length; i++) {
             if(temperaturas[i]<menor){
                 menor=temperaturas[i];
