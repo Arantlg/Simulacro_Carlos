@@ -30,6 +30,8 @@ public class simulacro {
         System.out.println("----------Dias calurosos y frios---------");
         int calor=diaCaluroso(temperaturas);
         System.out.println("En la semana hubieron "+ calor+" dias calurosos");
+        int frio=diasFrios(temperaturas);
+        System.out.println("En la semana hubieron "+ frio+" dias calurosos");
 
         sc.close();
 
@@ -87,8 +89,8 @@ public class simulacro {
     }
 
     // Punto 6- Contar cuántos días tuvieron temperatura menor a 27 grados
-    public static double diasFrios(double[] temperaturas){
-        double diasfrios=0;
+    public static int diasFrios(double[] temperaturas){
+        int diasfrios=0;
         for (int i = 0; i < temperaturas.length; i++) {
             if(temperaturas[i]<=27){
                diasfrios++;
